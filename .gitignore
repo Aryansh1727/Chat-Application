@@ -1,0 +1,11 @@
+# Python files
+__pycache__/
+*.pyc
+
+# PyInstaller files (if you built an exe)
+build/
+dist/
+*.spec
+
+# Local database history file
+*.db

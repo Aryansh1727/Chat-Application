@@ -1,0 +1,6 @@
+print("=================================")
+print(" PYTHON CHAT APPLICATION")
+print("=================================")
+print("Run server.py first")
+print("Then run client.py")
+print("=================================")
