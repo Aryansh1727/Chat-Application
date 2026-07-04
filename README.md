@@ -13,8 +13,9 @@ A responsive, feature-rich Python desktop chat application built using **Tkinter
 ## 🛠️ Project Structure
 * `server.py` — The central server script that initializes the network host and manages incoming socket messages.
 * `client.py` — The client script that connects directly to the server host.
-* `view.py` (or `layout.py`) — The core graphical layout, theme configurations, widgets, and utility tools.
+* `layout.py` — The core graphical layout, theme configurations, widgets, and utility tools.
 * `database.py` — Manages the SQLite connection to automatically save and retrieve chat histories.
+* `view_db.py` — A developer utility script to print and inspect the logged SQLite database records directly in the terminal.
 
 ## 🚀 How to Run
 
@@ -28,4 +29,5 @@ A responsive, feature-rich Python desktop chat application built using **Tkinter
 3. Enter your unique usernames and start chatting!
 
 ### Method B: No Terminal (Windows)
-Rename server.py and client.py to server.pyw and client.pyw respectively, then double-click them to run the app silently without launching a command prompt box.
+Rename `server.py` and `client.py` to `server.pyw` and `client.pyw` respectively, 
+then double-click them to run the app silently without launching a command prompt box.
